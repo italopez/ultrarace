@@ -1,0 +1,165 @@
+/* Elemento raíz */
+html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+  }
+  
+  /* Establece estilos predeterminados para el cuerpo */
+  body {
+    margin: 0;
+  }
+  
+  /* Elementos de texto específicos */
+  article,
+  aside,
+  footer,
+  header,
+  nav,
+  section {
+    display: block;
+  }
+  
+  /* Agrupar estilos de bloque para listas */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  blockquote,
+  figure,
+  dl,
+  dd,
+  ul,
+  ol,
+  pre {
+    margin: 0;
+  }
+  
+  /* Contenido en línea predeterminado */
+  a {
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  /* Restablece la propiedad de la fuente */
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+  }
+  
+  /* Elementos de formulario y botones predeterminados */
+  button,
+  input {
+    overflow: visible; /* 1 */
+  }
+  
+  /* Restablece las propiedades de formulario de Firefox */
+  button,
+  select {
+    text-transform: none;
+  }
+  
+  /* Corrige el error de restablecimiento de min-height en IE 8/9 pre - https://github.com/necolas/normalize.css/issues/368 */
+  ::-webkit-appearance-button
+  html [type="button"],
+  [type="reset"],
+  [type="submit"] 
+  
+  
+  /* Restablece los bordes y los estilos del área de selección en Safari iOS - https://github.com/necolas/normalize.css/issues/57 */
+  [type="search"] {
+    outline-offset: -2px; /* 2 */
+  }
+  
+  /* Restablece el relleno de los elementos seleccionados en Firefox 4+ - https://github.com/necolas/normalize.css/issues/112 */
+  ::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+  }
+  
+  /* Restablece la apariencia interna de las ventanas emergentes en Firefox y Safari */
+  ::-webkit-file-upload-button,
+  ::-webkit-file-upload-button:active {
+    font-family: inherit;
+    font-size: inherit;
+  }
+  
+  /* Restablece los bordes de las tablas en todos los navegadores (opera no precisa el restablecimiento) */
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  /* Restablece las propiedades de borde de todos los elementos de formulario en IE */
+  fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+  }
+  
+  /* Restablece los bordes de los elementos bloqueados cuando se rompen en páginas impresas */
+  @page {
+    margin: 0.5cm;
+  }
+  
+  /* Restablece las propiedades de visualización de los elementos ocultos */
+  html,
+  body {
+    display: block;
+  }
+  
+  /* Corrige la redimensión de las imágenes en IE */
+  img {
+    border-style: none;
+  }
+  
+  /* Restablece la retención de fuente de texto en IE 8/9 */
+  select {
+    font-size: 100%;
+  }
+  
+  /* Restablece el estilo de fila predeterminado de las tablas en todos los navegadores */
+  caption,
+  th,
+  td {
+    font-weight: normal;
+    text-align: left;
+  }
+  
+  /* Restablece la dirección del texto y el estilo del cuerpo en todos los navegadores */
+  body {
+    direction: ltr;
+  }
+  
+  /* Restablece la lista de estilos predeterminados de todos los navegadores */
+  ol,
+  ul {
+    list-style: none;
+  }
+  
+  /* Restablece las propiedades de espaciado y estilo de leyenda de los elementos de formulario en todos los navegadores */
+  fieldset,
+  figure {
+    margin: 0;
+  }
+  
+  /* Restablece la apariencia de la leyenda de la figura en IE 8/9 - https://github.com/necolas/normalize.css/issues/319 */
+  figcaption,
+  figure,
+  main {
+    display: block;
+  }
+  
+  /* Restablece la transparencia de los elementos ocultos en IE 8/9 */
+  [hidden] {
+    display: none;
+  }
+  
+  /* Fin de normalize.css */

@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header.cabecera {
+  background-image: url("../img/IMG_20230809_203458_123.jpg");
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-color: brown;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  background-attachment: fixed;
+}
+section.eventos {
+  max-width: 100%;
+}
+
+section.eventos table {
+  width: 80%;
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+}
+
+section.eventos table tr td {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+section.eventos table .img-eventos {
+  width: 400px;
+  padding: 20px;
+}
+
+.titulo {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: end;
+  padding-right: 100px;
+}
+
+.principal {
+  font-size: 130px;
+}
+
+.secundario {
+  font-size: 37px;
+}
+
+.titulo-eventos {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  height: 100px;
+}
+
+h3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  color: rgb(61, 61, 61);
+}
+
+h4 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  color: rgb(99, 8, 8);
+}
+
+footer {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+  background-color: rgb(46, 133, 104);
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+@media screen and (max-width: 1000px) {
+  section.eventos table .img-eventos {
+    width: 200px;
+    padding: 20px;
+  }
+}
